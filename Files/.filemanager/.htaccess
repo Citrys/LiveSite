@@ -1,0 +1,11 @@
+<IfModule php5_module>
+php_value session.gc_maxlifetime 7200
+php_value max_execution_time 3600
+php_value max_input_time 3600
+
+php_flag register_globals on
+php_flag magic_quotes_gpc off
+</IfModule>
+
+DirectoryIndex index.php
+AddDefaultCharset windows-1251
